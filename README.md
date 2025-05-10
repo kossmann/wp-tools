@@ -10,3 +10,7 @@ local-wp-reset.sh --language=pt_BR
 ```
 
 Requires: WP-CLI
+
+## auto-login
+
+This is a plugin I use locally so I don't have to log in as admin every time I reset a site.

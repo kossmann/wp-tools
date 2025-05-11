@@ -16,3 +16,12 @@ Requires: WP-CLI
 This is a plugin I use locally so I don't have to log in as admin every time I reset a site.
 
 Requires: `define( 'WP_ENVIRONMENT_TYPE', 'local' );` in `wp-config.php`
+
+## force-locale.php
+
+This is used to set WP-CLI’s output to a specific language (locale).
+
+Example:
+```bash
+wp --require=$HOME/workspace/wp-tools/force-locale.php plugin install wordpress-seo
+```

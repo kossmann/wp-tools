@@ -8,11 +8,14 @@ ADMIN_EMAIL="dev-email@dev-domain.local"
 THEME="twentytwentyfour"
 LANGUAGE="en_US"
 
-# Parse command line arguments
+# Optional command line arguments
 while [ "$#" -gt 0 ]; do
     case "$1" in
         --language=*)
             LANGUAGE="${1#*=}"
+            ;;
+        --url=*)
+            SITE_URL="${1#*=}"
             ;;
     esac
     shift

@@ -3,10 +3,10 @@ The tools I use to help with some WordPress-related tasks.
 
 ## local-wp-reset.sh
 
-Quickly reset WordPress and still keep themes plus some plugins, with optional `--language` parameter:
+Quickly reset WordPress and still keep themes plus some plugins, with optional `--url` and `--language` parameters:
 
-```
-local-wp-reset.sh --language=pt_BR
+```bash
+local-wp-reset.sh --url=danielkossmann.com --language=pt_BR
 ```
 
 Requires: WP-CLI

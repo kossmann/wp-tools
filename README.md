@@ -14,3 +14,5 @@ Requires: WP-CLI
 ## auto-login
 
 This is a plugin I use locally so I don't have to log in as admin every time I reset a site.
+
+Requires: `define( 'WP_ENVIRONMENT_TYPE', 'local' );` in `wp-config.php`

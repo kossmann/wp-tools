@@ -33,11 +33,11 @@ wp db reset --yes;
 # Install WordPress
 wp core install --url="$SITE_URL" --title="" --admin_user="$ADMIN_USER" --admin_password="$ADMIN_PASSWORD" --admin_email="$ADMIN_EMAIL";
 
-# Activate all plugins
-wp plugin activate --all;
+# Set language, useful for testing internationalization
+wp language core install ${LANGUAGE} --activate;
 
 # Activated desired theme
 wp theme activate ${THEME};
 
-# Set language, useful for testing internationalization
-wp language core install ${LANGUAGE} --activate;
+# Activate all plugins
+wp plugin activate --all;

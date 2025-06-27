@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Configuration variables
-SITE_URL="test.local"
+SITE_URL="http://test.local"
 ADMIN_USER="kossmann"
 ADMIN_PASSWORD="kossmann"
 ADMIN_EMAIL="dev-email@dev-domain.local"
